@@ -8,8 +8,8 @@ body {
 }
 
 header {
-	 /* teksti v‰rv */
-	background-color: #dee3fa; /* tausta v‰rv */
+	 /* teksti v√§rv */
+	background-color: #dee3fa; /* tausta v√§rv */
 	width: 30%;
 	
 	text-align:center;
@@ -62,5 +62,11 @@ nav ul li a {
 
 a:hover {
 	color:#a7afcf;
+	
+}
+
+#special-mark {
+	display:flex;
+	justify-content:center;
 	
 }
