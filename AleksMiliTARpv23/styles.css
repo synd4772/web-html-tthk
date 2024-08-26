@@ -1,0 +1,66 @@
+body {
+	margin:0;
+	background-color:#faf9f2;
+	font-family: Arial;
+	color: #2d3452;
+
+
+}
+
+header {
+	 /* teksti värv */
+	background-color: #dee3fa; /* tausta värv */
+	width: 30%;
+	
+	text-align:center;
+	border: 2px #2d3452 solid;
+	margin: 0 auto;
+	border-radius:60px;
+	font-size:12px
+}
+
+main section {
+	background-color:#dee3fa;
+	width:30%;
+	border: 3px #2d3452 solid;
+	margin:0 auto;
+	margin-top: 20px;
+	padding:20px;
+
+}
+
+main section h2 {
+	color:#313a63;
+}
+
+nav {
+	width:50%;
+	margin: 0 auto;
+	background-color:#dee3fa;
+	margin-top:20px;
+	padding:10px;
+	border-left: 3px #2d3452 solid;
+	border-right: 3px #2d3452 solid;
+	
+}
+
+nav ul {
+	display:flex;
+	justify-content:space-between;
+	list-style:none;
+	padding-inline-start: 40px;
+	padding-inline-end: 40px;
+}
+nav ul li a {
+	transition: color 0.5s;
+	font-size:20px;
+	text-decoration:none;
+	color: #2d3452
+
+	
+}
+
+a:hover {
+	color:#a7afcf;
+	
+}
